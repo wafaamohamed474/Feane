@@ -1,0 +1,409 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feane</title>
+    <!-- css style-->
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assest/vendor/bootstrap/bootstrap.min.css" />
+    <!-- cdnj -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Dancing+Script:wght@400;600;700&family=Work+Sans&family=Yanone+Kaffeesatz:wght@300&display=swap"
+      rel="stylesheet"
+    />
+ </head>
+ <body>
+    <!-- start header -->
+    <div class="home">
+        <div class="header">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html"> Feane </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class=""> </span>
+                </button>
+                <div
+                  class="navbar-collapse collapse"
+                  id="navbarSupportedContent "
+                >
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item text-uppercase">
+                      <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active text-uppercase">
+                      <a class="nav-link text-warning" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                      <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                      <a class="nav-link text-white" href="book.html"
+                        >Book Table</a
+                      >
+                    </li>
+                  </ul>
+                  <div
+                    class="user_option ms-auto d-flex align-items-center justify-content-between"
+                  >
+                    <a href="" class="user_link">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                    <a class="cart_link" href="#">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <form class="form-inline">
+                      <button
+                        class="btn my-2 my-sm-0 nav_search-btn"
+                        type="submit"
+                      >
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                    </form>
+                    <div class="box-btn main-button">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-lg bg-warning rounded-pill"
+                      >
+                        Order Online
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+    </div>
+    <!-- end header -->
+
+     <!-- start our menu -->
+     <div class="menu pt-5">
+        <div class="container">
+          <div
+            class="our-menu d-flex flex-column justify-content-center align-items-center pb-5"
+          >
+            <h2 class="pb-4 pt-4 fw-bold text-dark fs-1">Our Menu</h2>
+            <div class="menu-links">
+              <ul class="nav nav-pills">
+                <li class="nav-item mx-1">
+                  <a
+                    class="nav-link active bg-dark rounded-pill ps-4 pe-4"
+                    aria-current="page"
+                    href="#"
+                    >All</a
+                  >
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link text-black" href="#">Burger</a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link text-black" href="#">Pizza</a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link text-black" href="#">Pasta</a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link text-black" href="#">Fries</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f1.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Delicious Pizza</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$20</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f2.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Delicious Burger</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$15</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f3.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Delicious Pizza</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$17</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f4.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Delicious Pasta</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$18</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f5.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">French Fries</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$10</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f6.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Delicious Pizza</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$20</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f7.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Tasty Burger</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$12</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f8.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Tasty Burger</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$14</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark border-0">
+                <div class="card-img">
+                  <img src="./assest/img/f9.png " alt="..." />
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title text-white">Delicious Pasta</h5>
+                  <p class="text-white">
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaques
+                  </p>
+                  <div
+                    class="sal d-flex justify-content-between align-items-center"
+                  >
+                    <span class="text-white">$10</span>
+                    <div class="card-icon p-2 bg-warning rounded-circle">
+                      <i class="fa-solid fa-cart-shopping text-white"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-btn main-button text-center pt-4 pb-5">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg bg-warning rounded-pill"
+            >
+              View More
+            </button>
+        </div>
+      </div>
+      <!-- end our menu -->
+      <!-- start footer -->
+    <div class="footer pt-5 pb-5">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="footer-contact">
+              <h1 class="pb-4">Contact Us</h1>
+            </div>
+            <div class="contact-link-div d-flex flex-column">
+              <a href="" class="mb-2">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Location</span>
+              </a>
+
+              <a href=" " class="mb-2">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call +01 234567890</span>
+              </a>
+
+              <a href="" class="mb-2">
+                <i class="fa-solid fa-envelope"></i>
+                <span>demo@gmail.com</span>
+              </a>
+            </div>
+          </div>
+          <div class=".col-lg-4 col-md-4 mt-4">
+            <div class="footer-details mx-auto">
+              <div class="footer-logo"><h1 class="pb-4">Feane</h1></div>
+              <p>
+                Necessary, making this the first true generator on the Internet.
+                It uses a dictionary of over 200 Latin words, combined with
+              </p>
+              <div class="footer-icons mt-4">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="open-h">
+              <h1 class="pb-4">Opening Hours</h1>
+              <p>Everyday</p>
+              <p>10:00AM : 10:00PM</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="copyright text-white text-center pt-5">
+          <p>
+            ©2023 All Rights Reserved By Free Html Templates
+          </p>
+          <p>© Distributed By ThemeWagon</p>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+      
+ </body>
+ </html>
